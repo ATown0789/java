@@ -22,6 +22,7 @@ class DataTypes {
 		//For the methods below in this DataTypes class, determine the appropriate datatypes for the inputs and the outputs
 
 		MyArrays array = new MyArrays();
+		array.greet("Anthony");
 		System.out.println(Arrays.toString(getDataTypes(31, true, 1232L)));
 	}
 
